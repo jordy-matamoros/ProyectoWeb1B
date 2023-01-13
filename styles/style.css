@@ -48,6 +48,19 @@ ul {
 	border-bottom: 3px solid #00aecd;
 }
 
+.nav-local ul, .nav-global ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav-global h1 {
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
 main {
 	padding: 20px;
 }
@@ -116,6 +129,10 @@ footer {
 	background-color: #202123;
 	position: absolute;
 	width: 145px;
+}
+
+.boton_cuenta ul {
+	padding: 0px 15px;
 }
 
 .acciones_cuenta li{
