@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+
+<body>
+    <header>
+		<nav class="nav-global">
+			<ul>
+				<li><h1>Bienvenidos a nuestra tienda de computadoras</h1></li>
+			</ul>
+			<ul class="menu-global">	
+				<li class="desplegable">
+					<button class="boton_cuenta">Mi cuenta</button>
+					<ul class="acciones_cuenta">
+						<li class="iniciar-sesion"><a href="login.html">Iniciar Sesión</a></li>
+						<li class="registrar"><a href="sign-up.html">Registrarse</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+    
+    <main>
+        <form action="/login" method="post">
+            <label for="username">Nombre de usuario:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </main>
+</body>
+</html>
